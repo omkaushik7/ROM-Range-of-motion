@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Peckham Press Trial';
+    src: url('//ROM/Font/FontsFree-Net-PeckhamPress-Trial.ttf');
+}
+
+.heading-main {
+    font-family: 'Peckham Press Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 161.02%;
+    color: #808080;
+}
+
+.months span:first-child,
+.customers span,
+.stars {
+    font-size: 23px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.stars img {
+    width: 20px;
+}
+
+.buy-now-btn {
+    background: #2BF6FA;
+    border-radius: 0;
+    padding: 5px 20px;
+}
+
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #84f7f9;
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+.buynow {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+.trials {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.btm-text p:last-of-type {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 145%;
+    color: #35FCFB;
+}
+
+.massage-gun h1 {
+    font-family: 'Peckham Press Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 129px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.1;
+}
+
+.different-sec-main-content h1,
+.benefits-heading h1,
+.include-sec-heading {
+    font-family: 'Peckham Press Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40.2129px;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+}
+
+.feature {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #808080;
+    padding: 0 0 0 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    background-clip: padding-box;
+    border-radius: 23px;
+    border-top: 0;
+    border-bottom: 0;
+    /* opacity: .5; */
+    transition: opacity .6s ease;
+}
+
+.carousel-indicators .active {
+    background: #2BF6FA;
+}
+
+.include-sec ul li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 166%;
+    letter-spacing: 0.02em;
+    color: #808080;
+}
+
+.footer-img .btn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #2BF6FA;
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 42px;
+    text-transform: uppercase;
+    padding: 12px 34px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .heading-main {
+        font-size: 38px;
+    }
+}
