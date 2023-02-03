@@ -106,17 +106,19 @@ p {
 
 }
 
-.feature {
+.feature , .benefit-point{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 130%;
     letter-spacing: 0.02em;
     color: #808080;
     padding: 0 0 0 20px;
 }
-
+.carousel-indicators{
+    padding: 30px 0;
+}
 .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
@@ -175,7 +177,9 @@ p {
     .heading-main {
         font-size: 38px;
     }
+    
     .massage-gun h1{
         font-size:40px;
+        line-height: 0%;
     }
 }
