@@ -92,8 +92,8 @@ p {
     opacity: 0.1;
 }
 
-.different-sec-main-content h1,
-.benefits-heading h1,
+.different-sec-heading,
+.benefits-heading,
 .include-sec-heading {
     font-family: 'Peckham Press Trial';
     font-style: normal;
@@ -106,7 +106,8 @@ p {
 
 }
 
-.feature , .benefit-point{
+.feature,
+.benefit-point {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -116,9 +117,7 @@ p {
     color: #808080;
     padding: 0 0 0 20px;
 }
-.carousel-indicators{
-    padding: 30px 0;
-}
+
 .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
@@ -177,9 +176,20 @@ p {
     .heading-main {
         font-size: 38px;
     }
-    
-    .massage-gun h1{
-        font-size:40px;
-        line-height: 0%;
+
+    .massage-gun h1 {
+        font-size: 40px;
+    }
+
+    .footer-img .btn {
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    .massage-gun h1 {
+        font-size: 25px;
+        margin-top: 30px;
     }
 }
