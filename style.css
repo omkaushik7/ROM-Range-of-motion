@@ -171,6 +171,9 @@ p {
     border-radius: 0;
     text-align: center;
 }
+.footer p{
+    color: #AEAEAE;
+}
 
 @media only screen and (max-width: 1200px) {
     .heading-main {
